@@ -4,8 +4,11 @@ import './project'
 
 const projects = () => {
     return (
-        <div>
-            
+        <div id="projects">
+            <h1>Projects</h1>
+            <div id="projectsContainer">
+                
+            </div>
         </div>
     )
 }

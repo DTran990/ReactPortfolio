@@ -8,8 +8,114 @@
 
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
     font-family: 'Oswald', sans-serif;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    background: rgba(0, 0, 0, 0.801);
+    z-index: 3;
+}
+
+nav #logo img{
+    height: 45px;
+    width: 45px; 
+    margin: 15px;
+}
+
+nav #navlist{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+nav #navlist ul{
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-link{
+    font-size: 1.2em;
+    color: rgb(221, 221, 221);
+    margin-left: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.nav-link:hover, nav #hamburgerbtn:hover{
+    color:rgb(83, 4, 4);
+}
+
+nav #navlist ul li #Email{
+    margin-right: 25px;
+}
+
+nav #hamburgerbtn{
+    display:none;
+    margin: 0 20px;
+    position: absolute;
+    right: 5px; 
+    top: 18px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+
+@media screen and (max-width: 505px){
+    nav{
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 430px){
+    nav #logo{
+        align-self: flex-start;
+    }
+
+    nav #hamburgerbtn{
+        display:block;
+    }
+
+    nav #navlist ul{
+        flex-direction: column;
+        height:auto;
+        text-align: center;
+    }
+    .listitem{
+        margin: 15px 0;
+    }
+
+    .nav-link{
+        margin:auto;
+        padding: 25px 0;
+    }
+
+    .social{
+        margin: 25px 12px;
+    }
+
 }

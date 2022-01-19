@@ -11,9 +11,9 @@ const hero = () => {
                 <h1><span>Hi,</span> My name is David Tran</h1>
                 <h2>Web/Software Developer</h2>
                 <p>A Math and Computer Science Student from Ryerson University.</p>
-                <a href={Pdf} target="_blank"  id="resumebtn" rel="noopener noreferrer">View My Resume</a>                     
+                <a href={Pdf} target="_blank"  id="resumebtn"  rel="noopener noreferrer">View My Resume</a>                     
             </div>
-            <a id = "arrow" href="#AboutSection" className='heroArrow'><FontAwesomeIcon icon={faChevronDown} size = "2x" /></a>
+            <a id = "arrow" href="#projects" className='heroArrow' ><FontAwesomeIcon icon={faChevronDown} size = "2x" /></a>
         </div>
     )
 }

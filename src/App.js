@@ -11,7 +11,9 @@ import Contact from './components/contact'
 const App = () => {
   return (
     <div>
+      <Nav/>
       <Hero/>
+      <Projects/>
       <About/>
       <Skills/>
     </div>
