@@ -22,9 +22,28 @@ body{
     min-height:100vh;
     width: 100%;
     background: rgb(8, 10, 12);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #projects h1{
     padding: 25px 0px;
     font-size: 3em;
+}
+
+#projects #projectsContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    margin-bottom:100px;
+}
+
+@media only screen and (max-width: 450px){
+    #projects h1{
+        font-size: 2.5em;
+    }
 }
