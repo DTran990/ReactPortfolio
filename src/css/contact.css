@@ -7,8 +7,20 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body{
     font-family: 'Oswald', sans-serif;
+    color:rgb(221, 221, 221);
+    overflow-x: hidden;
+}
+
+#contact{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height: 100vh;
+    background: rgb(8, 10, 12);
 }

@@ -1,12 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../css/projects.css'
 import Project from './project'
 import prjct from '../Objects/projectsOBJ'
+import 'aos/dist/aos.css';
+import Aos from 'aos';
 
-const projects = () => {
+const Projects = () => {
+    useEffect(() => {
+        Aos.init({duration: 1000})
+    }, [])
     return (
         <div id="projects">
-            <h1>Projects</h1>
+            <h1 data-aos="fade-right" >Projects</h1>
             <div id="projectsContainer">
                 {prjct.map((p,index) =>{
                     return (
@@ -17,4 +22,4 @@ const projects = () => {
     )
 }
 
-export default projects
+export default Projects
