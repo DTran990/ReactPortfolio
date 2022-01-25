@@ -1,6 +1,6 @@
 const projectsOBJ = [
     {
-        Thumbnail: "/img/MovieDex.PNG",
+        Thumbnail: "/img/MovieDex.JPEG",
         Name: "MovieDex",
         Description: "A Movie Database Website that provides movie ratings, descriptions, and a search functionality using the Movie Database API.",
         Technology: ["React", "HTML", "CSS", "Javascript"],
@@ -8,7 +8,7 @@ const projectsOBJ = [
         GitLink: "https://github.com/DTran990/MovieDex"
     },
     {
-        Thumbnail: "/img/ReFresh.PNG",
+        Thumbnail: "/img/ReFresh.JPEG",
         Name: "ReFresh",
         Description: "A Mock therapy website with smooth scrolling and active page classes.",
         Technology: ["HTML", "CSS", "Javascript", "Bootstrap"],
@@ -16,7 +16,7 @@ const projectsOBJ = [
         GitLink: "https://github.com/DTran990/ReFresh"
     },
     {
-        Thumbnail: "/img/Necessities.PNG",
+        Thumbnail: "/img/Necessities.JPEG",
         Name: "Necessities App",
         Description: "A web application that includes local date and time, timer/stopwatch, weather app using the AccuWeather API, todo list, and calculator",
         Technology: ["React", "HTML", "CSS", "Javascript"],
@@ -24,7 +24,7 @@ const projectsOBJ = [
         GitLink: "https://github.com/DTran990/Necessities-Project"
     },
     {
-        Thumbnail: "/img/ClosedWeather.PNG",
+        Thumbnail: "/img/ClosedWeather.JPEG",
         Name: "ClosedWeather App",
         Description: "A Weather application made by myself and 3 group members using the OpenWeather and Spotify API.",
         Technology: ["React", "HTML", "CSS", "Javascript", "JQuery", "Bootstrap", "PHP", "MySQL"],
@@ -32,7 +32,7 @@ const projectsOBJ = [
         GitLink: "https://github.com/singh13sagar/weather/tree/david_hourly"
     },
     {
-        Thumbnail: "/img/Eduquat.PNG",
+        Thumbnail: "/img/Eduquat.JPEG",
         Name: "Eduquat",
         Description: "A Mock education website.",
         Technology: ["HTML", "CSS"],

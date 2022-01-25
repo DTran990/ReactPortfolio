@@ -14,6 +14,7 @@ body{
     font-family: 'Oswald', sans-serif;
     color:rgb(221, 221, 221);
     overflow-x: hidden;
+    background: rgb(8, 10, 12);
 }
 
 #contact{
@@ -105,3 +106,34 @@ body{
     margin: 0 50px;
 }
 
+@media only screen and (max-width: 1000px){
+    #contact #contactBox{
+        width: 90%;
+    }
+    #contact #contactBox #contactsocials .social{
+        margin: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 385px){
+    #contact #contactBox h1{
+        font-size: 2.5em;
+    }
+
+    #contact #contactBox p{
+        font-size: 1em;
+    }
+
+    #contact #contactBox form label{
+        font-size: 1em;
+    }
+
+    #contact #contactBox form input{
+        width: 95%;
+    }
+
+    #contact #contactBox form textarea{
+        width: 95%;
+    }
+
+}
