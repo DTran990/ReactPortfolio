@@ -8,6 +8,14 @@ const projectsOBJ = [
         GitLink: "https://github.com/DTran990/MovieDex"
     },
     {
+        Thumbnail: "/img/Portfolio.JPEG",
+        Name: "Portfolio",
+        Description: "My Personal Portfolio.",
+        Technology: ["React", "HTML", "CSS", "Javascript"],
+        SiteLink: "https://trandavid.ca/",
+        GitLink: "https://github.com/DTran990/ReactPortfolio"
+    },
+    {
         Thumbnail: "/img/ReFresh.JPEG",
         Name: "ReFresh",
         Description: "A Mock therapy website with smooth scrolling and active page classes.",
