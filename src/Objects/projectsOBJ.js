@@ -8,6 +8,14 @@ const projectsOBJ = [
         GitLink: "https://github.com/DTran990/MovieDex"
     },
     {
+        Thumbnail: "/img/BookSearcher.JPEG",
+        Name: "BookSearcher",
+        Description: "A Book Search Website that provides Book information from the Google Books API.",
+        Technology: ["React", "Redux", "React-Router" , "HTML", "CSS", "Javascript"],
+        SiteLink: "https://book-searcher-seven.vercel.app/",
+        GitLink: "https://github.com/DTran990/Booksearcher"
+    },
+    {
         Thumbnail: "/img/Portfolio.JPEG",
         Name: "Portfolio",
         Description: "My Personal Portfolio.",
