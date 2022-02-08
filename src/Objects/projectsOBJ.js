@@ -4,7 +4,7 @@ const projectsOBJ = [
         Name: "MovieDex",
         Description: "A Movie Database Website that provides movie ratings, descriptions, and a search functionality using the Movie Database API.",
         Technology: ["React", "HTML", "CSS", "Javascript"],
-        SiteLink: "https://themovie-dex.herokuapp.com/",
+        SiteLink: "https://moviedex.vercel.app/",
         GitLink: "https://github.com/DTran990/MovieDex"
     },
     {
