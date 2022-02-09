@@ -35,7 +35,7 @@ const projectsOBJ = [
         Thumbnail: "/img/Necessities.JPEG",
         Name: "Necessities App",
         Description: "A web application that includes local date and time, timer/stopwatch, weather app using the AccuWeather API, todo list, and calculator",
-        Technology: ["React", "HTML", "CSS", "Javascript"],
+        Technology: ["HTML", "CSS", "Javascript"],
         SiteLink: "https://dt-necessities.000webhostapp.com/index.html",
         GitLink: "https://github.com/DTran990/Necessities-Project"
     },
