@@ -16,17 +16,17 @@ const Skills = () => {
                 <div className="SkillsBox" >
                     <h2 className='boxhead'>Languages and Technology</h2>
                     <FontAwesomeIcon icon={faLaptopCode} size="5x" className='skillicon'/>
-                    <p className='SkillsList'>HTML5, CSS3, Javascript, Python, Java, C, SASS, MATLAB, R</p>
+                    <p className='SkillsList'>HTML5, CSS3, JavaScript, Python, C, SASS, PHP, Java </p>
                 </div>
                 <div className="SkillsBox" >
                     <h2 className='boxhead'>Frameworks</h2>
                     <FontAwesomeIcon icon={faCropAlt} size="5x" className='skillicon'/>
-                    <p className='SkillsList'>Bootstrap, JQuery, React.js</p>
+                    <p className='SkillsList'>React.js (Redux and Router), Bootstrap, jQuery</p>
                 </div>
                 <div className="SkillsBox" >
                     <h2 className='boxhead'>Other</h2>
                     <FontAwesomeIcon icon={faDatabase} size="5x" className='skillicon'/>
-                    <p className='SkillsList'>Windows, Linux/Unix, SQL, Git, Visual Studio, Oracle, MySQL, JavaFX</p>
+                    <p className='SkillsList'>Linux/Unix, SQL, Git, Visual Studio, Oracle, MySQL, JSON, SEO Optimization</p>
                 </div>
             </div>
         </div>
