@@ -26,7 +26,7 @@ const Skills = () => {
                 <div className="SkillsBox" >
                     <h2 className='boxhead'>Other</h2>
                     <FontAwesomeIcon icon={faDatabase} size="5x" className='skillicon'/>
-                    <p className='SkillsList'>Linux/Unix, SQL, Git, Visual Studio, Oracle, MySQL, JSON, SEO Optimization</p>
+                    <p className='SkillsList'>Linux/Unix, SQL, Git, Visual Studio, Oracle, MySQL, AJAX, JSON, SEO Optimization</p>
                 </div>
             </div>
         </div>
